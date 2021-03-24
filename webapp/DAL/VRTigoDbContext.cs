@@ -22,7 +22,7 @@ namespace DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlite("Data Source=VandenEyndeDb_EFCodeFirst.db");
-            optionsBuilder.UseMySql("server=192.168.0.115;database=db;user=winkeltemp;password=Winkeltje@1234");
+            optionsBuilder.UseMySql("server=localhost;database=db;user=kdg;password=Kdg@202103");
         }
 
         public static void Initialize(VRTigoDbContext context, bool dropCreateDatabase = false)
