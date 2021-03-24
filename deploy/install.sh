@@ -27,7 +27,7 @@ fi
 sudo apt-get update && sudo apt-get upgrade -y
 
 #Installing nano, git, wget, nginx, mysql-server, expect, unzip, webmin, php, php-json, composer
-sudo apt-get install -y nano git wget nginx mysql-server expect unzip certbot python-certbot-nginx
+sudo apt-get install -y nano git wget nginx mysql-server expect unzip certbot python3-certbot-nginx mysql-client
 
 #Installing dotnet core 3.1
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
