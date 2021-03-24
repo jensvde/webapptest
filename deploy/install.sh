@@ -45,8 +45,8 @@ sudo mysql -e "CREATE USER '$SQL_USER'@'localhost' IDENTIFIED WITH mysql_native_
 sudo mysql -e "GRANT ALL ON *.* TO '$SQL_USER'@'localhost';"
 sudo mysql -e "CREATE DATABASE db;"
 sudo mysql -e "CREATE DATABASE db_users;"
-sudo mysql --user=$SQL_USER --password=$SQL_USER_PASS --database db < database.db
-sudo mysql --user=$SQL_USER --password=$SQL_USER_PASS --database db_users < database.db
+sudo mysql --user=$SQL_USER --password=$SQL_USER_PASS < database.db
+sudo mysql --user=$SQL_USER --password=$SQL_USER_PASS --all-databases < database.db
 
 #Unzip SSL certificate
 unzip -u $SSL_CERT_NAME -d /home/$USERNAME/
@@ -55,7 +55,7 @@ unzip -u $SSL_CERT_NAME -d /home/$USERNAME/
 sudo killall dotnet
 rm -r /home/$USERNAME/$APPNAME
 rm -r /home/$USERNAME/publish
-git clone $GITLINK /home/$USERNAME/$GITPREFIX
+git clone $GITLINK /home/$USERNAME/webapptest
 cp -avrfn /home/$USERNAME/$GITPREFIX/$APPNAME/bin/Release/netcoreapp3.1/publish /home/$USERNAME/publish
 
 #Installing service 
