@@ -109,12 +109,12 @@ server {
 
         # SSL configuration
         #
-        listen 443 ssl default_server;
-        listen [::]:443 ssl default_server;
+#        listen 443 ssl default_server;
+#        listen [::]:443 ssl default_server;
 
-        ssl on;
-        ssl_certificate $CERT_LOCATION;
-        ssl_certificate_key $KEY_LOCATION;
+#        ssl on;
+#        ssl_certificate $CERT_LOCATION;
+#        ssl_certificate_key $KEY_LOCATION;
 #
         # Note: You should disable gzip for SSL traffic.
         # See: https://bugs.debian.org/773332
@@ -187,11 +187,11 @@ server {
 #               try_files $uri $uri/ =404;
 #       }
 #}
-server{
-        listen 80;
-        server_name $DOMAINNAME *.$DOMAINNAME;
-        return 301 https://$DOMAINNAME\$request_uri;
-}
+#server{
+#        listen 80;
+#        server_name $DOMAINNAME *.$DOMAINNAME;
+#        return 301 https://$DOMAINNAME\$request_uri;
+#}
 " > /etc/nginx/sites-enabled/default
 
 echo "
@@ -287,3 +287,6 @@ echo "$USERNAME ALL = NOPASSWD: /sbin/halt, /sbin/reboot, /sbin/poweroff" >> /et
 
 #Installing crontab for auto certbot renewal
 (crontab -l 2>/dev/null; echo "0 12 * * * /usr/bin/certbot renew --quiet") | crontab -
+
+#Installing cert
+certbot --nginx -d vrtigo.xyz -d default
