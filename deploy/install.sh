@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Variables:
-SQL_ROOT_PASS=kdg123
+SQL_ROOT_PASS=Kdg@202103
 SQL_USER=kdg
-SQL_USER_PASS=kdg123
+SQL_USER_PASS=Kdg@202103
 DOMAINNAME=vrtigoweb.eu
 USERNAME="jens"
 SSL_CERT_NAME="/home/$USERNAME/vandeneynde_eu.zip"
