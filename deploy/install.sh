@@ -5,7 +5,7 @@ SQL_ROOT_PASS=Kdg@202103
 SQL_USER=kdg
 SQL_USER_PASS=Kdg@202103
 DOMAINNAME=vrtigo.xyz
-USERNAME="jens"
+USERNAME="kdg"
 SSL_CERT_NAME="/home/$USERNAME/vandeneynde_eu.zip"
 APPNAME=VRTigoWeb
 APPLOWERNAME=VRTigoWeb
@@ -290,4 +290,4 @@ echo "$USERNAME ALL = NOPASSWD: /sbin/halt, /sbin/reboot, /sbin/poweroff" >> /et
 (crontab -l 2>/dev/null; echo "0 12 * * * /usr/bin/certbot renew --quiet") | crontab -
 
 #Installing cert
-certbot --nginx -d vrtigo.xyz -d default
+certbot --nginx -d vrtigo.xyz -d www.vrtigo.xyz
