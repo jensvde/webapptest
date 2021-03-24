@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LpqIIAShd7gH9f7vneXpAsdJm+A8fit9uXCcRr+d2/tc0qVlPZoZDlUhukekF/Qgh6F8qXnCQYjab+2za3iTew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jens\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,64 @@
+﻿@{Layout=null;}
+@model Domain.GameData 
+<head>
+    <link href="~/lib/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <style>
+        #sortable {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 60%;
+        }
+
+            #sortable li {
+                margin: 0 3px 3px 3px;
+                padding: 0.4em;
+                padding-left: 1.5em;
+                font-size: 1.4em;
+                height: 18px;
+            }
+
+                #sortable li span {
+                    position: absolute;
+                    margin-left: -1.3em;
+                }
+    </style>
+    <script>
+        $(function () {
+            $("#sortable").sortable();
+            $("#sortable").disableSelection();
+        });
+
+        function saveSortedQuestions() {
+            var questions = $.map($("li.ui-state-default"), function (item, index) {
+                var questionDetail = new Object();
+                questionDetail.Id = parseInt($(item).find("span").attr("id"));
+                questionDetail.Priority = index + 1;
+                return questionDetail;
+            });
+
+            var jsonQuestions = JSON.stringify(questions);
+            $.ajax({
+                type: "POST",
+                contentType: 'application/json',
+                data: jsonQuestions,
+                url: 'https://localhost:44352/api/values/SortPanels?questions=',
+                dataType: "json",
+                traditional: true
+            });
+        };
+    </script>
+</head>
+<body>
+    <ul id="sortable" class="ul.ui-state-default">
+        @foreach (Domain.QuestionData question in Model.QuestionDatas)
+        {
+            string toPrint = question.QuestionType + ": " + question.Title;
+            <li class="ui-state-default" id="@question.QuestionDataId"><span class="ui-icon ui-icon-arrowthick-2-n-s" id="@question.QuestionDataId"></span>@toPrint</li>
+        }
+    </ul>
+    <input type="button" id="orderPhoto" class="button.ui-state-default" value="Save change" onclick="saveSortedQuestions()"/>
+</body>

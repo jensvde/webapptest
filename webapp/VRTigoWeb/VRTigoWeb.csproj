@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-VRTigoWeb-919F3C1F-08DB-44EC-80FE-DC6F53354C73</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="web.config" />
+    <None Include="wwwroot\Build\assets.data.unityweb" />
+    <None Include="wwwroot\Build\assets.wasm.code.unityweb" />
+    <None Include="wwwroot\Build\assets.wasm.framework.unityweb" />
+    <None Include="wwwroot\Build\UnityLoader.js" />
+    <None Include="wwwroot\TemplateData\UnityProgress.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.11" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.4" />
+    <PackageReference Include="Unity3D.UnityEngine" Version="2018.3.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BL\BL.csproj" />
+  </ItemGroup>
+
+</Project>
