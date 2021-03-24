@@ -5971,11 +5971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
       "projectName": "VRTigoWeb",
-      "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
+      "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
       "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\VRTigoWeb\\obj\\",
+      "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5992,8 +5992,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj"
+            "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj"
             }
           }
         }

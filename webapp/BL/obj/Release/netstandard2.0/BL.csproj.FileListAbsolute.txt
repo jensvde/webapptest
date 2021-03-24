@@ -1,0 +1,14 @@
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\BL.deps.json
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\BL.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\BL.pdb
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\DAL.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\Domain.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\DAL.pdb
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\bin\Release\netstandard2.0\Domain.pdb
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.csprojAssemblyReference.cache
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.AssemblyInfoInputs.cache
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.AssemblyInfo.cs
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.csproj.CopyComplete
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\BL\obj\Release\netstandard2.0\BL.pdb

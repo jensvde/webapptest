@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj": {}
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\BL.csproj",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj",
         "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\BL\\obj\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\DAL.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\DAL.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapp_23-03-2021\\webapp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
