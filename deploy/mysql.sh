@@ -1,6 +1,6 @@
 #!/bin/bash
 SQL_USER="kdg"
-SQL_PASS="kdg123"
+SQL_PASS="Kdg@202103"
 
 if [[ $1 == "--restart" ]]; then
 	reboot
