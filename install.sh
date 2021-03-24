@@ -7,9 +7,9 @@ SQL_USER_PASS=kdg123
 DOMAINNAME=vrtigoweb.eu
 USERNAME="jens"
 SSL_CERT_NAME="/home/$USERNAME/vandeneynde_eu.zip"
-APPNAME=webapp
-APPLOWERNAME=webapp
-GITPREFIX=webapptest
+APPNAME=VRTigoWeb
+APPLOWERNAME=VRTigoWeb
+GITPREFIX=webapptest/webapp
 GITLINK="https://github.com/jensvde/$GITPREFIX.git"
 CERT_LOCATION="/home/$USERNAME/vandeneynde_eu.crt"
 KEY_LOCATION="/home/$USERNAME/vandeneynde.key"
@@ -25,17 +25,6 @@ fi
 
 #Update and upgrade
 sudo apt-get update && sudo apt-get upgrade -y
-
-#Add webmin source if not exist
-if grep -Fxq "deb http://download.webmin.com/download/repository sarge contrib" /etc/apt/sources.list 
-then
-        echo "Exists"
-else
-        echo "Add"
-        echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
-        wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
-	sudo apt update
-fi
 
 #Installing nano, git, wget, nginx, mysql-server, expect, unzip, webmin, php, php-json, composer
 sudo apt-get install -y nano git wget nginx mysql-server expect unzip 

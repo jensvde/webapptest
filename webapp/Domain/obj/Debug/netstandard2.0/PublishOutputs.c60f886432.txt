@@ -1,0 +1,5 @@
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\Domain\bin\Debug\netstandard2.0\publish\Domain.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\Domain\bin\Debug\netstandard2.0\publish\Domain.deps.json
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\Domain\bin\Debug\netstandard2.0\publish\Domain.pdb
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\Domain\bin\Debug\netstandard2.0\publish\Newtonsoft.Json.dll
+C:\Users\Jens\Documents\GitHub\webapptest\webapp\Domain\bin\Debug\netstandard2.0\publish\System.ComponentModel.Annotations.dll
