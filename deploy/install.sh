@@ -4,13 +4,13 @@
 SQL_ROOT_PASS=Kdg@202103
 SQL_USER=kdg
 SQL_USER_PASS=Kdg@202103
-DOMAINNAME=vrtigoweb.eu
+DOMAINNAME=vrtigo.xyz
 USERNAME="jens"
 SSL_CERT_NAME="/home/$USERNAME/vandeneynde_eu.zip"
 APPNAME=VRTigoWeb
 APPLOWERNAME=VRTigoWeb
 GITPREFIX=webapptest/webapp
-GITLINK="https://github.com/jensvde/$GITPREFIX.git"
+GITLINK="https://github.com/jensvde/webapptest"
 CERT_LOCATION="/home/$USERNAME/vandeneynde_eu.crt"
 KEY_LOCATION="/home/$USERNAME/vandeneynde.key"
 BUNDLE_LOCATION="/home/$USERNAME/vandeneynde_eu.ca-bundle"
@@ -27,7 +27,7 @@ fi
 sudo apt-get update && sudo apt-get upgrade -y
 
 #Installing nano, git, wget, nginx, mysql-server, expect, unzip, webmin, php, php-json, composer
-sudo apt-get install -y nano git wget nginx mysql-server expect unzip 
+sudo apt-get install -y nano git wget nginx mysql-server expect unzip certbot python-certbot-nginx
 
 #Installing dotnet core 3.1
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -284,3 +284,6 @@ service nginx restart
 
 #Giving user permission to use shutdown
 echo "$USERNAME ALL = NOPASSWD: /sbin/halt, /sbin/reboot, /sbin/poweroff" >> /etc/shutdown.allow
+
+#Installing crontab for auto certbot renewal
+(crontab -l 2>/dev/null; echo "0 12 * * * /usr/bin/certbot renew --quiet") | crontab -
