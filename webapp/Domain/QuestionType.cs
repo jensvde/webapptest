@@ -6,6 +6,6 @@ namespace Domain
 {
     public enum QuestionType
     {
-        Auto, Fiets, Voetganger, Bus, Deelauto, Geen
+        Auto, Fiets, Voetganger, Bus, Transport
     }
 }

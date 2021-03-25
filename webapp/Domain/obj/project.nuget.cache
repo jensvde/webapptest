@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "I9TofQoMeKcVeTtJslMxzImh/9a9Jker8R1SpNDSIDCBRBIpaV2SydnjLlNPJEtW6/7NOLkxT/6K8EGbpsXhJQ==",
+  "dgSpecHash": "MUYxB0slylIS9nAC+T3ldDtVPvN5EvNBL+qYm296MT5LrntpK7xW52oOz+SETbuxBGy/fQKnE216kWgXVs0Rvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\Jens\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Jens\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

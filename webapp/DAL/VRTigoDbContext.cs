@@ -18,7 +18,6 @@ namespace DAL
         public DbSet<QuestionResponse> QuestionResponses { get; set; }
         public DbSet<QuestionResponseLine> QuestionResponseLines { get; set; }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlite("Data Source=VandenEyndeDb_EFCodeFirst.db");
@@ -97,14 +96,13 @@ namespace DAL
             {
                 Title = "KUNNEN WE AUTO’S DELEN?",
                 Question = "Verschillende onderzoeken hebben aangetoond dat één deelwagen 8 tot 12 voertuigen kan vervangen. Zou jij het zien zitten om een auto weg te doen en te vervangen door een deelvoertuig? Test hier wat de impact is van het aandeel deelvoertuigen op de noodzaak aan parkeerplaatsen en op het straatbeeld in het algemeen.",
-                QuestionType = QuestionType.Deelauto,
+                QuestionType = QuestionType.Transport,
                 Position = 5
             };
             QuestionData questionData6 = new QuestionData()
             {
                 Title = "JOUW IDEALE MIX!",
                 Question = "Heb je nu je ideale mix van vervoersmiddelen voor Zaventem gemaakt? Kijk het nog even na en pas eventueel nog een beetje aan en geef je mix dan door.",
-                QuestionType = QuestionType.Geen,
                 Position = 6
             };
             context.QuestionDatas.AddRange(new[] { questionData, questionData2, questionData3, questionData4, questionData5, questionData6 });

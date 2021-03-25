@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj": {}
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\obj\\",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\DAL.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\DAL.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj"
+              "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -133,21 +133,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,7 +198,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5966,19 +5966,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\": {}
+    "C:\\Users\\Jens\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
       "projectName": "VRTigoWeb",
-      "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
-      "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\VRTigoWeb\\obj\\",
+      "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
+      "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\VRTigoWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5992,8 +5992,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\BL\\BL.csproj"
+            "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\webapptest\\webapp\\BL\\BL.csproj"
             }
           }
         }
@@ -6051,6 +6051,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.12, 3.1.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6059,7 +6065,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },
