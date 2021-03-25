@@ -94,8 +94,8 @@ namespace DAL
             };
             QuestionData questionData5 = new QuestionData()
             {
-                Title = "KUNNEN WE AUTO’S DELEN?",
-                Question = "Verschillende onderzoeken hebben aangetoond dat één deelwagen 8 tot 12 voertuigen kan vervangen. Zou jij het zien zitten om een auto weg te doen en te vervangen door een deelvoertuig? Test hier wat de impact is van het aandeel deelvoertuigen op de noodzaak aan parkeerplaatsen en op het straatbeeld in het algemeen.",
+                Title = "Hoeveel plaats voor transport moet er zijn?",
+                Question = "Natuurlijk moeten goederen van en naar luchthaven geraken. Deze vrachtwagens nemen veel plaats in beslag. Hoeveel plaats wil je hier voor vrijmaken?",
                 QuestionType = QuestionType.Transport,
                 Position = 5
             };
