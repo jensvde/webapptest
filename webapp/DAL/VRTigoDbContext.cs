@@ -21,7 +21,8 @@ namespace DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlite("Data Source=VandenEyndeDb_EFCodeFirst.db");
-            optionsBuilder.UseMySql("server=localhost;database=db;user=kdg;password=Kdg@202103");
+            //optionsBuilder.UseMySql("server=localhost;database=db;user=kdg;password=Kdg@202103");
+            optionsBuilder.UseMySql("server=localhost;database=db;user=kdg;password=kdg123");
         }
 
         public static void Initialize(VRTigoDbContext context, bool dropCreateDatabase = false)
@@ -59,14 +60,14 @@ namespace DAL
                 X = 2.656139f,
                 Y = 9.853806f,
                 Z = 4.369f,
-                Name = "Testpunt 2"
+                Name = "Testpunt 22"
             };
             context.TeleportDatas.AddRange(new[] { tpData1, tpData2 });
             context.SaveChanges();
 
             QuestionData questionData = new QuestionData()
             {
-                Title = "WAT IS DE ROL VAN DE AUTO IN ZAVENTEM?",
+                Title = "WATA IS DE ROL VAN DE AUTO IN ZAVENTEM?",
                 Question = "Op dit moment verplaatst 61% zich in Zaventem met de auto voor verplaatsingen tussen woonplaats en werk of school. Hoeveel % zou dat in de toekomst moeten zijn? Via de knoppen kan je meer of minder auto’s in het straatbeeld plaatsen.",
                 QuestionType = QuestionType.Auto,
                 Position = 1

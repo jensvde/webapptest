@@ -41,6 +41,7 @@ function refreshForm(id) {
     var questionTypeTarget = document.getElementById("QuestionData_QuestionType");
     var positionTarget = document.getElementById("QuestionData_Position");
     var idTarget = document.getElementById("QuestionData_QuestionDataId");
+    var previousTarget = document.getElementById("QuestionData_KeepPreviousValue");
 
     questionTarget.value = question.innerHTML;
     titleTarget.value = title.innerHTML;

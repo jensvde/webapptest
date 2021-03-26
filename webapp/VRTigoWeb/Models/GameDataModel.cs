@@ -13,6 +13,7 @@ namespace VRTigoWeb.Models
         public int GameDataId { get; set; }
         public string Title { get; set; }
         public string IntroText { get; set; }
+        public bool KeepPreviousValue { get; set; }
         public TeleportData[] TeleportDatas { get; set; }
         public int[] DeletedTeleportDatas { get; set; }
 

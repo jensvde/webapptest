@@ -8,17 +8,19 @@
                     <th colspan="4">Type</th>
                     <th colspan="4">Titel</th>
                     <th colspan="4">Vraag</th>
+                    <th colspan="4">Waardes meenemen?</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (Domain.QuestionData question in Model.QuestionDatas)
                 {
-                    <tr ondblclick="refreshForm(@question.QuestionDataId)" class="ui-state-default" id="@question.QuestionDataId">
-                        <th colspan="4" id=@String.Concat("Position",question.QuestionDataId)>@question.Position</th>
-                        <td colspan="4" id=@String.Concat("QuestionType",question.QuestionDataId)>@question.QuestionType</td>
-                        <td colspan="4" id=@String.Concat("Title",question.QuestionDataId)>@question.Title</td>
-                        <td colspan="4" id=@String.Concat("Question",question.QuestionDataId)>@question.Question</td>
-                    </tr>
+                <tr ondblclick="refreshForm(@question.QuestionDataId)" class="ui-state-default" id="@question.QuestionDataId">
+                    <th colspan="4" id=@String.Concat("Position",question.QuestionDataId)>@question.Position</th>
+                    <td colspan="4" id=@String.Concat("QuestionType",question.QuestionDataId)>@question.QuestionType</td>
+                    <td colspan="4" id=@String.Concat("Title",question.QuestionDataId)>@question.Title</td>
+                    <td colspan="4" id=@String.Concat("Question",question.QuestionDataId)>@question.Question</td>
+                    <td colspan="4" id=@String.Concat("KeepPrevious",question.QuestionDataId)>@question.KeepPreviousValue</td>
+                </tr>
                 }
             </tbody>
         </table>
@@ -32,6 +34,8 @@
                             <dd class="dd-dt"><select class="inputdetails" asp-for="QuestionData.QuestionType" asp-items="Model.Items"></select></dd>
                             <dt class="dd-dt"><label for="questionData.Title">Titel</label></dt>
                             <dd class="dd-dt"><textarea cols="35" rows="3" asp-for="QuestionData.Title" class="inputdetails"></textarea></dd>
+                            <dt class="dd-dt"><label for="questionData.KeepPrevousValue">Vorige waarde meenemen?</label></dt>
+                            <dd class="dd-dt"><input asp-for="QuestionData.KeepPreviousValue" class="inputdetails" /></dd>
                         </dl>
                     </div>                    
                     <div class="div-right">

@@ -11,6 +11,7 @@ namespace Domain
         [Key]
         public int QuestionDataId { get; set; }
         public int Position { get; set; }
+        public bool KeepPreviousValue { get; set; }
         public string Title { get; set; }
         public string Question { get; set; }
         public QuestionType QuestionType { get; set; }
