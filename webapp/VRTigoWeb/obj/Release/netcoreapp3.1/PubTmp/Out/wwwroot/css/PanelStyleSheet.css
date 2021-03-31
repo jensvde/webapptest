@@ -1,0 +1,25 @@
+﻿table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    background: #fff;
+    border-width: 0;
+    border-bottom: 1px solid #B8B8B8;
+    font-weight: normal !important;
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+thead, tfoot {
+    text-transform: uppercase;
+    background: #ccc;
+}
+
+body {
+    color: #111;
+    font-size: 16px;
+    font-family: sans-serif;
+}
