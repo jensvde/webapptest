@@ -108,15 +108,35 @@ namespace VRTigoWeb.Controllers
 
         // POST api/values/UploadResponse
         [HttpPost("UploadResponse")]
-        public void UploadResponse(QuestionResponseModel model)
+        public void UploadResponse(List<KeyVal<string, float>> slidervalues)
         {
             QuestionResponse response = new QuestionResponse()
             {
                 GameData = mgr.GetGameData(),
-                QuestionResponseLines = model.QuestionResponseLines
+                QuestionResponseLines = new List<QuestionResponseLine>()
             };
+            List<QuestionType> questionTypes = mgr.GetQuestionTypes(1).ToList();
+            foreach (KeyVal<string, float> kval in slidervalues)
+            {
+                QuestionResponseLine line = new QuestionResponseLine { QuestionResult = (int)kval.Value , QuestionType = questionTypes.Single(x => x.Type.Contains(kval.Key))};
+                response.QuestionResponseLines.Add(line);
+            }
             mgr.AddQuestionResponse(response);
         }
     }
     }
+public class KeyVal<TKey, TVal>
+{
+    public TKey Key { get; set; }
+    public TVal Value { get; set; }
+
+    public KeyVal() { }
+
+    public KeyVal(TKey key, TVal val)
+    {
+        this.Key = key;
+        this.Value = val;
+    }
+}
+
 

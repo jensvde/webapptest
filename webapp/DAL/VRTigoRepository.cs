@@ -53,7 +53,7 @@ namespace DAL
         {
             return ctx.GameDatas
                 .Include(x => x.TeleportDatas)
-                .Include(x => x.QuestionDatas)
+                .Include(x => x.QuestionDatas).ThenInclude(x => x.QuestionType)
                 .Include(x => x.QuestionResponses).ThenInclude(x => x.QuestionResponseLines)
                 .Single(x => x.GameDataId == gameDataId);
         }
