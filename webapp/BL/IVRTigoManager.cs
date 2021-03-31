@@ -26,8 +26,14 @@ namespace BL
 
         QuestionResponse AddQuestionResponse(QuestionResponse QuestionResponse);
         QuestionResponse GetQuestionResponse(int QuestionResponseId);
-        IEnumerable<QuestionResponse> GetQuestionResponses();
+        IEnumerable<QuestionResponse> GetQuestionResponses(int gameDataId);
         void ChangeQuestionResponse(QuestionResponse QuestionResponse);
         void RemoveQuestionResponse(QuestionResponse QuestionResponse);
+
+        QuestionType AddQuestionType(QuestionType QuestionType);
+        QuestionType GetQuestionType(int QuestionTypeId);
+        IEnumerable<QuestionType> GetQuestionTypes(int gameDataId);
+        void ChangeQuestionType(QuestionType QuestionType);
+        void RemoveQuestionType(QuestionType QuestionType);
     }
 }

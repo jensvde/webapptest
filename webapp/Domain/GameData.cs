@@ -13,5 +13,6 @@ namespace Domain
         public virtual ICollection<TeleportData> TeleportDatas { get; set; }
         public virtual ICollection<QuestionData> QuestionDatas { get; set; }
         public virtual ICollection<QuestionResponse> QuestionResponses { get; set; }
+        public virtual ICollection<QuestionType> QuestionTypes { get; set; }
     }
 }

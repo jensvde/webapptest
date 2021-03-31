@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Quiz instellingen";
+}
+
+@model SettingsModel
+
+<link href="~/css/PanelStyleSheet.css" rel="stylesheet" />
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Positie</th>
+                <th colspan="4">Type</th>
+                <th colspan="4">Titel</th>
+                <th colspan="4">Vraag</th>
+                <th colspan="4">Waardes meenemen?</th>
+            </tr>
+        </thead>
+        <tbody>
+<h1>@ViewBag.Title</h1>
+            @foreach (Domain.QuestionData question in Model.QuestionDatas)
+            {
+                <tr ondblclick="refreshForm(@question.QuestionDataId)" class="ui-state-default" id="@question.QuestionDataId">
+                    <th colspan="4" id=@String.Concat("Position",question.QuestionDataId)>@question.Position</th>
+                    @if (question.QuestionType != null)
+                    {
+                        <td colspan="4" id=@String.Concat("QuestionTypeString", question.QuestionDataId)>@question.QuestionType.Type</td>
+                        <td style="display:none;" colspan="4" id=@String.Concat("QuestionType", question.QuestionDataId)>@question.QuestionType.QuestionTypeId</td>
+                    }
+                    else
+                    {
+                        <td colspan="4">Geen</td>
+                    }
+                    <td colspan="4" id=@String.Concat("Title",question.QuestionDataId)>@question.Title</td>
+                    <td colspan="4" id=@String.Concat("Question",question.QuestionDataId)>@question.Question</td>
+                    <td colspan="4" id=@String.Concat("KeepPrevious",question.QuestionDataId)>@question.KeepPreviousValue</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input type="button" id="orderPhoto" class="button.ui-state-default" value="Save change" onclick="saveSortedQuestions()" />
+    <input type="button" id="createQuestion" class="button.ui-state-default" value="Nieuwe vraag" onclick="newQuestion(@Model.QuestionDatas.Length+1)" />
+
+    <form asp-controller="Settings" asp-action="EditQuestion" method="post">
+        <div class="div-container">
+            <div class="div-left">
+                <dl class="dl-horizontal">
+                    <dt class="dd-dt"><label for="questionData.QuestionType">Type</label></dt>
+                    <dd class="dd-dt">
+                        <select class="inputdetails" asp-for="SelectedItem" asp-items="Model.Items"></select>
+                        <input asp-for="NewTypeName" class="inputdetails" visibility="hidden" />
+                        <input type="button" id="createQuestionType" class="button.ui-state-default" value="Nieuw type" onclick="newType()" />
+                        <input type="button" id="deleteQuestionType" class="button.ui-state-default" value="Verwijder type" onclick="deleteType()" />
+                    </dd>
+                    <dt class="dd-dt"><label for="questionData.Title">Titel</label></dt>
+                    <dd class="dd-dt"><textarea cols="35" rows="3" asp-for="QuestionData.Title" class="inputdetails"></textarea></dd>
+                    <dt class="dd-dt"><label for="questionData.KeepPrevousValue">Vorige waarde meenemen?</label></dt>
+                    <dd class="dd-dt"><input asp-for="QuestionData.KeepPreviousValue" class="inputdetails" /></dd>
+                </dl>
+            </div>
+            <div class="div-right">
+                <dl class="dl-horizontal">
+                    <dt class="dd-dt"><label for="questionData.Question">Vraag</label></dt>
+                    <dd class="dd-dt"><textarea cols="35" rows="5" asp-for="QuestionData.Question" class="inputdetails"></textarea></dd>
+                </dl>
+                &nbsp;
+                <input asp-for="QuestionData.QuestionDataId" class="inputdetails" hidden="hidden" />
+                <input asp-for="GameDataId" class="inputdetails" hidden="hidden" />
+                <input asp-for="QuestionData.Position" class="inputdetails" hidden="hidden" />
+                <input asp-for="NewQuestion" class="inputdetails" hidden="hidden" />
+                <input asp-for="NewType" class="inputdetails" hidden="hidden" />
+            </div>
+        </div>
+        <div class="div-buttons">
+            <input type="submit" value="Opslaan" class="btn btn-default" />&nbsp;&nbsp;&nbsp;
+            <a class="btn btn-default" asp-controller="Settings" asp-action="Index" type="Submit">Annuleren</a>&nbsp;&nbsp;&nbsp;
+        </div>
+    </form>
+</body>
+

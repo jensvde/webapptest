@@ -25,8 +25,14 @@ namespace DAL
 
         QuestionResponse CreateQuestionResponse(QuestionResponse QuestionResponse);
         QuestionResponse ReadQuestionResponse(int QuestionResponseId);
-        IEnumerable<QuestionResponse> ReadQuestionResponses();
+        IEnumerable<QuestionResponse> ReadQuestionResponses(int gameDataId);
         void UpdateQuestionResponse(QuestionResponse QuestionResponse);
         void DeleteQuestionResponse(QuestionResponse QuestionResponse);
+
+        QuestionType CreateQuestionType(QuestionType QuestionType);
+        QuestionType ReadQuestionType(int QuestionTypeId);
+        IEnumerable<QuestionType> ReadQuestionTypes(int gameDataId);
+        void UpdateQuestionType(QuestionType QuestionType);
+        void DeleteQuestionType(QuestionType QuestionType);
     }
 }

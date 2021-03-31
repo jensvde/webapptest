@@ -92,14 +92,39 @@ namespace BL
             return repo.ReadQuestionResponse(QuestionResponseId);
         }
 
-        public IEnumerable<QuestionResponse> GetQuestionResponses()
+        public IEnumerable<QuestionResponse> GetQuestionResponses(int gameDataId)
         {
-            return repo.ReadQuestionResponses();
+            return repo.ReadQuestionResponses(gameDataId);
         }
 
         public void RemoveQuestionResponse(QuestionResponse QuestionResponse)
         {
             repo.DeleteQuestionResponse(QuestionResponse);
+        }
+
+        public QuestionType AddQuestionType(QuestionType QuestionType)
+        {
+            return repo.CreateQuestionType(QuestionType);
+        }
+
+        public void ChangeQuestionType(QuestionType QuestionType)
+        {
+            repo.UpdateQuestionType(QuestionType);
+        }
+
+        public QuestionType GetQuestionType(int QuestionTypeId)
+        {
+            return repo.ReadQuestionType(QuestionTypeId);
+        }
+
+        public IEnumerable<QuestionType> GetQuestionTypes(int gameDataId)
+        {
+            return repo.ReadQuestionTypes(gameDataId);
+        }
+
+        public void RemoveQuestionType(QuestionType QuestionType)
+        {
+            repo.DeleteQuestionType(QuestionType);
         }
     }
 }

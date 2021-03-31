@@ -46,3 +46,15 @@ C:\Users\Jens\Documents\GitHub\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DA
 C:\Users\Jens\Documents\GitHub\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
 C:\Users\Jens\Documents\GitHub\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.dll
 C:\Users\Jens\Documents\GitHub\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\DAL\obj\Debug\netstandard2.0\DAL.pdb

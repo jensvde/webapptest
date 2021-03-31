@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Algemene instellingen";
+}
+@model Domain.GameData
+<h1>Algemene instellingen</h1>
+<form asp-controller="Settings" asp-action="EditGeneralInfo" method="post">
+    <div class="form-group">
+        <label for="Title">Titel</label>
+        <input asp-for="Title" type="text" class="form-control" id="titel" placeholder="Geef een titel op">
+        <small id="titelHelp" class="form-text text-muted">De titel wordt getoont wanneer het spel opstart.</small>
+    </div>
+    <div class="form-group">
+        <label for="IntroText">Introductie tekst</label>
+        <textarea asp-for="IntroText" type="text" class="form-control autosize" id="intro" placeholder="Geef een introductietekst op" style="overflow: hidden; overflow-wrap: break-word; resize: none; height: 62px;"></textarea>
+        <small id="introTextHelp" class="form-text text-muted">De introductie tekst wordt getoont wanneer het spel opstart.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Bewaar wijzigngen</button>
+    <button type="reset" class="btn btn-light">Annuleren</button>
+</form>

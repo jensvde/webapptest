@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Teleportatie instellingen";
+}
+
+<link rel="stylesheet" href="~/TemplateData/style.css">
+<script src="~/TemplateData/UnityProgress.js"></script>
+<script src="~/Build/UnityLoader.js"></script>
+<script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "../Build/Artifacts.json", { onProgress: UnityProgress });
+</script>
+
+<h1>@ViewBag.Title</h1>
+<div id="unityContainer" style="width:700px; height: 500px"></div>
+<div class="footer">
+    <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+</div>

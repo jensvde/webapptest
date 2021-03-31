@@ -96,7 +96,7 @@ namespace DAL
         }
         public IEnumerable<QuestionData> ReadQuestionDatas(int gameDataId)
         {
-            return ctx.QuestionDatas.Where(x => x.GameData.GameDataId == gameDataId).AsEnumerable();
+            return ctx.QuestionDatas.Include(x => x.QuestionType).Where(x => x.GameData.GameDataId == gameDataId).AsEnumerable();
         }
         public void UpdateQuestionData(QuestionData QuestionData)
         {
@@ -120,13 +120,39 @@ namespace DAL
                 .Include(x => x.QuestionResponseLines)
                 .Single(x => x.QuestionResponseId == QuestionResponseId);
         }
-        public IEnumerable<QuestionResponse> ReadQuestionResponses()
+        public IEnumerable<QuestionResponse> ReadQuestionResponses(int gameDataId)
         {
-            return ctx.QuestionResponses.AsEnumerable();
+            return ctx.QuestionResponses.Include(x => x.QuestionResponseLines).Where(x => x.GameData.GameDataId == gameDataId).AsEnumerable();
         }
         public void UpdateQuestionResponse(QuestionResponse QuestionResponse)
         {
             ctx.QuestionResponses.Update(QuestionResponse);
+            ctx.SaveChanges();
+        }
+
+        public QuestionType CreateQuestionType(QuestionType QuestionType)
+        {
+            ctx.QuestionTypes.Add(QuestionType);
+            ctx.SaveChanges();
+            return QuestionType;
+        }
+        public void DeleteQuestionType(QuestionType QuestionType)
+        {
+            ctx.QuestionTypes.Remove(QuestionType);
+            ctx.SaveChanges();
+        }
+        public QuestionType ReadQuestionType(int QuestionTypeId)
+        {
+            return ctx.QuestionTypes
+                .Single(x => x.QuestionTypeId == QuestionTypeId);
+        }
+        public IEnumerable<QuestionType> ReadQuestionTypes(int gameDataId)
+        {
+            return ctx.QuestionTypes.Where(x => x.GameData.GameDataId == gameDataId).AsEnumerable();
+        }
+        public void UpdateQuestionType(QuestionType QuestionType)
+        {
+            ctx.QuestionTypes.Update(QuestionType);
             ctx.SaveChanges();
         }
     }

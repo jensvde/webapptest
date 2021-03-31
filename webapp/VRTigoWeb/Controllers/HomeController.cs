@@ -20,7 +20,7 @@ namespace VRTigoWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("General", "Settings");
         }
 
         public IActionResult About()
