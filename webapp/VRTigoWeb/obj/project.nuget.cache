@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mwk5UBK0wWDxFNmyCl8p1eb6mirobHmnqZNqZKwYfTh4URc8veHVNxFzOA+1G+Cpqw6clNVmDIAelzkyX//UrQ==",
+  "dgSpecHash": "qrNxLs0d3tIMIueu92KorGRFZixmx+uzlaH5uVn4EcOsGFF51hLJTWFNKRbal9g7oDp3bkYfgXzK/MG8XFzwkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\Github\\webapptest\\webapp\\VRTigoWeb\\VRTigoWeb.csproj",
   "expectedPackageFiles": [
@@ -114,19 +114,7 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Gebruiker\\.nuget\\packages\\unity3d.unityengine\\2018.3.5.1\\unity3d.unityengine.2018.3.5.1.nupkg.sha512"
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Unity3D.UnityEngine 2018.3.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Unity3D.UnityEngine",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -1598,15 +1598,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Unity3D.UnityEngine/2018.3.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/UnityEngine.dll": {}
-        },
-        "runtime": {
-          "lib/UnityEngine.dll": {}
-        }
-      },
       "BL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -5923,19 +5914,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Unity3D.UnityEngine/2018.3.5.1": {
-      "sha512": "63ZCYwGdoBCmsJCUI6dodSY+1TrU/7lTDmfF+492Z6nn8my30E3sb5HXLe7qm7MLvBIcKz9TCy114yu5VGycKA==",
-      "type": "package",
-      "path": "unity3d.unityengine/2018.3.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/UnityEngine.dll",
-        "lib/UnityEngine.xml",
-        "unity3d.unityengine.2018.3.5.1.nupkg.sha512",
-        "unity3d.unityengine.nuspec"
-      ]
-    },
     "BL/1.0.0": {
       "type": "project",
       "path": "../BL/BL.csproj",
@@ -5961,8 +5939,7 @@
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.11",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.11",
-      "Pomelo.EntityFrameworkCore.MySql >= 3.2.4",
-      "Unity3D.UnityEngine >= 2018.3.5.1"
+      "Pomelo.EntityFrameworkCore.MySql >= 3.2.4"
     ]
   },
   "packageFolders": {
@@ -6035,10 +6012,6 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[3.2.4, )"
-          },
-          "Unity3D.UnityEngine": {
-            "target": "Package",
-            "version": "[2018.3.5.1, )"
           }
         },
         "imports": [
@@ -6062,17 +6035,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Unity3D.UnityEngine 2018.3.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Unity3D.UnityEngine",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

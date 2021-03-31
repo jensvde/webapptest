@@ -3,6 +3,12 @@
 }
 
 @model SettingsModel
+@section Scripts
+{
+    <script src="~/js/PanelScript.js"></script>
+    <script src="~/lib/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+}
 
 <link href="~/css/PanelStyleSheet.css" rel="stylesheet" />
 <body>
@@ -17,24 +23,24 @@
             </tr>
         </thead>
         <tbody>
-<h1>@ViewBag.Title</h1>
+            <h1>@ViewBag.Title</h1>
             @foreach (Domain.QuestionData question in Model.QuestionDatas)
             {
-                <tr ondblclick="refreshForm(@question.QuestionDataId)" class="ui-state-default" id="@question.QuestionDataId">
-                    <th colspan="4" id=@String.Concat("Position",question.QuestionDataId)>@question.Position</th>
-                    @if (question.QuestionType != null)
+            <tr ondblclick="refreshForm(@question.QuestionDataId)" class="ui-state-default" id="@question.QuestionDataId">
+                <th colspan="4" id=@String.Concat("Position",question.QuestionDataId)>@question.Position</th>
+                @if (question.QuestionType != null)
                     {
-                        <td colspan="4" id=@String.Concat("QuestionTypeString", question.QuestionDataId)>@question.QuestionType.Type</td>
-                        <td style="display:none;" colspan="4" id=@String.Concat("QuestionType", question.QuestionDataId)>@question.QuestionType.QuestionTypeId</td>
+                <td colspan="4" id=@String.Concat("QuestionTypeString", question.QuestionDataId)>@question.QuestionType.Type</td>
+                <td style="display:none;" colspan="4" id=@String.Concat("QuestionType", question.QuestionDataId)>@question.QuestionType.QuestionTypeId</td>
                     }
                     else
                     {
-                        <td colspan="4">Geen</td>
+                <td colspan="4">Geen</td>
                     }
-                    <td colspan="4" id=@String.Concat("Title",question.QuestionDataId)>@question.Title</td>
-                    <td colspan="4" id=@String.Concat("Question",question.QuestionDataId)>@question.Question</td>
-                    <td colspan="4" id=@String.Concat("KeepPrevious",question.QuestionDataId)>@question.KeepPreviousValue</td>
-                </tr>
+                <td colspan="4" id=@String.Concat("Title",question.QuestionDataId)>@question.Title</td>
+                <td colspan="4" id=@String.Concat("Question",question.QuestionDataId)>@question.Question</td>
+                <td colspan="4" id=@String.Concat("KeepPrevious",question.QuestionDataId)>@question.KeepPreviousValue</td>
+            </tr>
             }
         </tbody>
     </table>

@@ -9,10 +9,15 @@ C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netc
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv2\WebGL.json
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv2\WebGL.wasm.code.unityweb
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv2\WebGL.wasm.framework.unityweb
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Artifacts.data.unityweb
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Artifacts.json
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Artifacts.wasm.code.unityweb
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Artifacts.wasm.framework.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv3\Artifacts.data.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv3\Artifacts.json
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv3\Artifacts.wasm.code.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv3\Artifacts.wasm.framework.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Buildv3\UnityLoader.js
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Teleport.data.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Teleport.json
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Teleport.wasm.code.unityweb
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\Teleport.wasm.framework.unityweb
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\Build\UnityLoader.js
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\css\PanelStyleSheet.css
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\css\settings.css
@@ -142,7 +147,6 @@ C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netc
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\System.Runtime.Caching.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\UnityEngine.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\runtimes\win-arm64\native\sni.dll

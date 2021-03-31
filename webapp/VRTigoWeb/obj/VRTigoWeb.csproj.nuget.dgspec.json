@@ -269,10 +269,6 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.2.4, )"
-            },
-            "Unity3D.UnityEngine": {
-              "target": "Package",
-              "version": "[2018.3.5.1, )"
             }
           },
           "imports": [

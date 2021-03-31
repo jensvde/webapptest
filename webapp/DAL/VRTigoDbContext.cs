@@ -55,16 +55,44 @@ namespace DAL
             context.SaveChanges();
             TeleportData tpData1 = new TeleportData
             {
-                X = -5.652814f, Y = 9.308958f, Z = 4.369f, Name = "Testpunt 1"
+                X = 125.31f, Y = 5f, Z = 171.22f, Name = "Start"
             };
             TeleportData tpData2 = new TeleportData
             {
-                X = 2.656139f,
-                Y = 9.853806f,
-                Z = 4.369f,
-                Name = "Testpunt 22"
+                X = 166.56f,
+                Y = 5f,
+                Z = 186.98f,
+                Name = "Bus stop"
             };
-            context.TeleportDatas.AddRange(new[] { tpData1, tpData2 });
+            TeleportData tpData3 = new TeleportData
+            {
+                X = 199.85f,
+                Y = 5f,
+                Z = 168.5f,
+                Name = "Industrie"
+            }; 
+            TeleportData tpData4 = new TeleportData
+            {
+                X = 156.1f,
+                Y = 5f,
+                Z = 250.8f,
+                Name = "Snelweg"
+            };
+            TeleportData tpData5 = new TeleportData
+            {
+                X = 104.4f,
+                Y = 5f,
+                Z = 215.9f,
+                Name = "Station"
+            };
+            TeleportData tpData6 = new TeleportData
+            {
+                X = 179.8f,
+                Y = 45f,
+                Z = 136.9f,
+                Name = "Overzicht"
+            };
+            context.TeleportDatas.AddRange(new[] { tpData1, tpData2, tpData3, tpData4, tpData5, tpData6 });
             context.SaveChanges();
 
             //Seed questionTypes;
@@ -170,6 +198,10 @@ namespace DAL
             data.QuestionDatas.Add(questionData6);
             data.TeleportDatas.Add(tpData1);
             data.TeleportDatas.Add(tpData2);
+            data.TeleportDatas.Add(tpData3);
+            data.TeleportDatas.Add(tpData4);
+            data.TeleportDatas.Add(tpData5);
+            data.TeleportDatas.Add(tpData6);
             data.QuestionTypes.Add(Auto);
             data.QuestionTypes.Add(Bus);
             data.QuestionTypes.Add(Fiets);
