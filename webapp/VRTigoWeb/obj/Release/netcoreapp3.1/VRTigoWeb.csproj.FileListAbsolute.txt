@@ -206,7 +206,6 @@ C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netc
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Game.cshtml.g.cs
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Index.cshtml.g.cs
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Responses.cshtml.g.cs
-C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Test.cshtml.g.cs
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -220,3 +219,6 @@ C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netc
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\VRTigoWeb.dll
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\VRTigoWeb.pdb
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\VRTigoWeb.genruntimeconfig.cache
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\General.cshtml.g.cs
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Question.cshtml.g.cs
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\obj\Release\netcoreapp3.1\Razor\Views\Settings\Teleport.cshtml.g.cs

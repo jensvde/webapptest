@@ -19,6 +19,7 @@ C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netc
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\css\settings2.css
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\css\site.css
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\favicon.ico
+C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\js\Chart.js
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\js\PanelScript.js
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\js\site.js
 C:\Users\Gebruiker\Documents\Github\webapptest\webapp\VRTigoWeb\bin\Release\netcoreapp3.1\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
