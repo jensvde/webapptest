@@ -102,4 +102,16 @@ function deleteType() {
         succes: stateChange(),
         error: stateChange()
     });
+}
+
+function deleteQuestion() {
+    var questionType = document.getElementById("QuestionData_QuestionDataId").value;
+
+    $.ajax({
+        type: "GET",
+        url: 'https://localhost:44352/Settings/DeleteQuestion/' + questionType,
+        traditional: true,
+        succes: stateChange(),
+        error: stateChange()
+    });
 };

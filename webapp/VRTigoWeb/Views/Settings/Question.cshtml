@@ -57,6 +57,8 @@
                         <input asp-for="NewTypeName" class="inputdetails" visibility="hidden" />
                         <input type="button" id="createQuestionType" class="button.ui-state-default" value="Nieuw type" onclick="newType()" />
                         <input type="button" id="deleteQuestionType" class="button.ui-state-default" value="Verwijder type" onclick="deleteType()" />
+                        <input type="button" id="deleteQuestion" class="button.ui-state-default" value="Verwijder vraag" onclick="deleteQuestion()" />
+
                     </dd>
                     <dt class="dd-dt"><label for="questionData.Title">Titel</label></dt>
                     <dd class="dd-dt"><textarea cols="35" rows="3" asp-for="QuestionData.Title" class="inputdetails"></textarea></dd>

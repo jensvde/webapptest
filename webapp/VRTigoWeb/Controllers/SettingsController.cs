@@ -11,21 +11,17 @@ using System.Threading.Tasks;
 using VRTigoWeb.Models;
 using BL;
 using Domain;
+using Microsoft.AspNetCore.Authorization;
 
 namespace VRTigoWeb.Controllers
 {
+    [Authorize]
     public class SettingsController : Controller
     {
         private IVRTigoManager mgr;
         public SettingsController()
         {
             mgr = new VRTigoManager();
-        }
-        public IActionResult Index()
-        {
-            GameData model = mgr.GetGameData();
-            model.QuestionDatas = model.QuestionDatas.AsEnumerable().OrderBy(x => x.Position).ToList();
-            return View(model);
         }
 
         public IActionResult Teleport()
@@ -108,6 +104,13 @@ namespace VRTigoWeb.Controllers
                 return RedirectToAction("General");
             }
             return BadRequest();
+        }
+
+        public IActionResult DeleteQuestion(int id)
+        {
+            QuestionData toRemove = mgr.GetQuestionData(1);
+            mgr.RemoveQuestionData(toRemove);
+            return RedirectToAction("Question");
         }
 
         public IActionResult DeleteQuestionType(int id)
